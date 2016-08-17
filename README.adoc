@@ -1,0 +1,21 @@
+= Option Assign - Compiler Plugin
+
+== Example Code
+
+```scala
+
+var t: String.? = _ //None
+
+t = Some("T")
+
+t := "A" //Some("A")
+```
+
+== Usage
+
+. `sbt compile`
+. Go to `plugin/target/scala-2.11`, copy `optionassign-scalac-plugin_2.11-1.0.jar` to desired location (`<LOC>`).
+. Add `scalacOptions <+= "-Xplugin:<LOC>/optionassign-scalac-plugin_2.11-1.0.jar` to your SBT build settings.
+
+...or just use the `Test` App in the `tests` project.
+
