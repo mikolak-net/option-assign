@@ -1,0 +1,20 @@
+= Option Assign
+
+== What
+
+An experiment in making `Option` types a little more explicit "first-class" default type over the dreaded nullable
+definition, via way of syntax extensions.
+
+== How
+
+There are currently two variants, obtainable via:
+
+ - `git checkout assign_operator`
+ - `git checkout question_mark`
+
+Each one has a README listing:
+
+  - example code,
+  - usage instructions.
+
+Also, each one has their limitations. Experimentation, breaking things, encouraged.
