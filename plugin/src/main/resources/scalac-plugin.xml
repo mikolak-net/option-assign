@@ -1,0 +1,4 @@
+<plugin>
+	<name>optionassign</name>
+	<classname>com.softwaremill.option_assign.OptionAssignPlugin</classname>
+</plugin>
