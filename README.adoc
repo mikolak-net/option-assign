@@ -1,0 +1,23 @@
+= Option Assign - DSL
+
+== Example Code
+
+```scala
+
+import com.softwaremill.option_assign._
+
+var test = ?[String]
+
+println(test) //None
+
+test ?= "Blah"
+
+println(test) //Some("Blah")
+```
+
+== Usage
+
+. `import com.softwaremill.option_assign`
+
+You can play with the `Test` App in the main project.
+
